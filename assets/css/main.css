@@ -1,0 +1,33 @@
+body {
+
+}
+.contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #688A08;
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: green;
+  color: cyan;
+}
