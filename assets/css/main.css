@@ -1,5 +1,11 @@
 body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   background-color: #361D2E;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contenedorHeader {
@@ -16,7 +22,7 @@ header {
 nav {
   display: flex;
   padding: 20px;
-  justify-content: flex-start;
+
 }
 
 li {
@@ -29,31 +35,39 @@ a {
 }
 
 a:hover {
-  background-color: green;
-  color: cyan;
+  background-color: #F6CEEC;
+  color: #688A08;
 }
 
 .contenedorImagenes {
   width: 100%;
+  justify-content: space-between;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  margin-top: 2%;
-  background-color: pink;
+  padding: 10px;
 }
 
 .cajita {
+  display: flex;
   flex-direction: column;
-  width: 25%;
+  justify-content: center;
+  padding: 10px 20px 20px 20px;
 
+  background-color: #F6CEEC;
+  margin: 10px;
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+.cerrar{
+  text-align: right;
 }
 
 .contenedorBotones {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -61,7 +75,9 @@ img {
 }
 
 button {
-  padding: 15px;
-  background-color: red;
-  margin: 15px;
+  width: 25%;
+  padding: 10px;
+  background-color: #688A08;
+  margin: 10px;
+  color: white;
 }
