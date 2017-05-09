@@ -1,0 +1,67 @@
+body {
+  background-color: #361D2E;
+}
+
+.contenedorHeader {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #688A08;
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: green;
+  color: cyan;
+}
+
+.contenedorImagenes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  background-color: pink;
+}
+
+.cajita {
+  flex-direction: column;
+  width: 25%;
+
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.contenedorBotones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  padding: 15px;
+  background-color: red;
+  margin: 15px;
+}
