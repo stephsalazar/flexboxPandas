@@ -8,11 +8,12 @@ body {
   flex-wrap: wrap;
 }
 
+
 .contenedorHeader {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-color: #a3d313;
+  background-color: #7aa008;
 }
 
 header {
@@ -36,7 +37,7 @@ a {
 
 a:hover {
   background-color: #F6CEEC;
-  color: #a3d313;
+  color: #7aa008;
 }
 
 .contenedorImagenes {
@@ -76,7 +77,7 @@ img {
 button {
   width: 25%;
   padding: 10px;
-  background-color: #a3d313;
+  background-color: #7aa008;
   margin: 10px;
   color: white;
 }
@@ -92,6 +93,10 @@ button {
   flex-direction: column;
   width: 40%;
   margin: 2%;
-  color: #a3d313;
+  color: #7aa008;
   font-size: 20px;
+}
+
+p {
+  visibility: visible;
 }
