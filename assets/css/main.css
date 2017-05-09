@@ -1,7 +1,8 @@
 body {
-
+  background-color: #361D2E;
 }
-.contenedor {
+
+.contenedorHeader {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -30,4 +31,37 @@ a {
 a:hover {
   background-color: green;
   color: cyan;
+}
+
+.contenedorImagenes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  background-color: pink;
+}
+
+.cajita {
+  flex-direction: column;
+  width: 25%;
+
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.contenedorBotones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  padding: 15px;
+  background-color: red;
+  margin: 15px;
 }
